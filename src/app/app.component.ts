@@ -40,5 +40,64 @@ export class AppComponent {
           photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
         };
 
+        enseignants:Enseignant[] = 
+        [
+          {
+            id: 1,
+            nom:'TOM',
+            prenom: 'Eric',
+            numero: 12345,
+            dateEmbauche: '1990-01-01',
+            dateNaissance: '1960-01-01',
+            grade: 'ABC',
+            sexe: 'M',
+            photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+          },
+          {
+            id: 1,
+            nom:'TOM',
+            prenom: 'Eric',
+            numero: 12345,
+            dateEmbauche: '1990-01-01',
+            dateNaissance: '1960-01-01',
+            grade: 'ABC',
+            sexe: 'M',
+            photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+          },
+          {
+            id: 1,
+            nom:'TOM',
+            prenom: 'Eric',
+            numero: 12345,
+            dateEmbauche: '1990-01-01',
+            dateNaissance: '1960-01-01',
+            grade: 'ABC',
+            sexe: 'M',
+            photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+          },
+          {
+            id: 1,
+            nom:'TOM',
+            prenom: 'Eric',
+            numero: 12345,
+            dateEmbauche: '1990-01-01',
+            dateNaissance: '1960-01-01',
+            grade: 'ABC',
+            sexe: 'M',
+            photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+          },
+          {
+            id: 1,
+            nom:'TOM',
+            prenom: 'Eric',
+            numero: 12345,
+            dateEmbauche: '1990-01-01',
+            dateNaissance: '1960-01-01',
+            grade: 'ABC',
+            sexe: 'M',
+            photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+          }
+        ]
+
 
       }

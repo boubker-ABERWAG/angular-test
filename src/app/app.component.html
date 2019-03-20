@@ -34,3 +34,16 @@
       <li>Sexe: {{enseignant.sexe}}</li>
     </ul>
   </div>
+
+  <br/>
+  <div class="container" *ngFor="let en of enseignants">
+      <label>{{en.nom}} {{en.prenom}}</label>
+      <img src="{{en.photo}}"/>
+      <ul *ngIf="afficherLaListe">
+        <li>NUM: {{en.numero}}</li>
+        <li>Date de naissance: {{en.dateNaissance}}</li>
+        <li>Date d'embauche: {{en.dateEmbauche}}</li>
+        <li>Grade: {{en.grade}}</li>
+        <li>Sexe: {{en.sexe}}</li>
+      </ul>
+    </div>
