@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Enseignant } from './Enseignant';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ export class AppComponent {
 
   tel:string = '0123456987';
 
-  vrai: boolean = true;
+  afficherLaListe: boolean = true;
 
   // enseignant
   nom:string = "JACK";
@@ -26,6 +27,18 @@ export class AppComponent {
   photo:string = 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
 
 
+        // enseigannt Objet
+        enseignant:Enseignant = {
+          id: 1,
+          nom:'TOM',
+          prenom: 'Eric',
+          numero: 12345,
+          dateEmbauche: '1990-01-01',
+          dateNaissance: '1960-01-01',
+          grade: 'ABC',
+          sexe: 'M',
+          photo: 'http://www.aaege-israel.org/wp-content/uploads/2013/09/logo-enseignant.jpg'
+        };
 
 
-}
+      }

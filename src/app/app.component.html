@@ -9,13 +9,13 @@
 <ul>
   <li>{{numero}}</li>
   <li>{{tel}}</li>
-  <li>{{vrai}}</li>
+  <li>{{afficherLaListe}}</li>
 </ul>
 
 <div>
   <label>{{nom}} {{prenom}}</label>
   <img src="{{photo}}"/>
-  <ul>
+  <ul *ngIf="afficherLaListe">
     <li>NUM: {{numero}}</li>
     <li>Date de naissance: {{dateNaissance}}</li>
     <li>Date d'embauche: {{dateEmbauche}}</li>
