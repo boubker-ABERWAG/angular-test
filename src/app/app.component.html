@@ -12,7 +12,7 @@
   <li>{{afficherLaListe}}</li>
 </ul>
 
-<div>
+<div class="container">
   <label>{{nom}} {{prenom}}</label>
   <img src="{{photo}}"/>
   <ul *ngIf="afficherLaListe">
@@ -23,3 +23,14 @@
     <li>Sexe: {{sexe}}</li>
   </ul>
 </div>
+<div class="container">
+    <label>{{enseignant.nom}} {{enseignant.prenom}}</label>
+    <img src="{{enseignant.photo}}"/>
+    <ul *ngIf="afficherLaListe">
+      <li>NUM: {{enseignant.numero}}</li>
+      <li>Date de naissance: {{enseignant.dateNaissance}}</li>
+      <li>Date d'embauche: {{enseignant.dateEmbauche}}</li>
+      <li>Grade: {{enseignant.grade}}</li>
+      <li>Sexe: {{enseignant.sexe}}</li>
+    </ul>
+  </div>
