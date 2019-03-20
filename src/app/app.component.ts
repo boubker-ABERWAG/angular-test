@@ -7,6 +7,8 @@ import { Enseignant } from './Enseignant';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  
   title = 'app works!';
   s:string = 'Hello';
 
